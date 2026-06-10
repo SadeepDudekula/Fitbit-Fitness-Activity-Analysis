@@ -1,0 +1,164 @@
+FITBIT FITNESS ACTIVITY ANALYSIS - DOCUMENTATION
+================================================
+
+Analyst: Sadeep Dudekula
+Date: June 2026
+Tool: Excel, Tableau Public
+
+================================================
+PHASE 1 - ASK
+================================================
+
+Business Task:
+
+Analyze Fitbit fitness tracker data to understand
+user activity, sleep patterns, and calorie burn
+behavior. Provide insights that can help improve
+user engagement and healthy lifestyle habits.
+
+Stakeholders:
+
+- Fitbit Product Team
+- Health & Wellness Team
+- Marketing Team
+
+================================================
+PHASE 2 - PREPARE
+================================================
+
+Data Source:
+FitBit Fitness Tracker Dataset (Kaggle)
+
+Files Used:
+- dailyActivity_merged.csv
+- sleepDay_merged.csv
+
+Users:
+33 Fitbit Users
+
+Data Limitations:
+
+- Small sample size
+- Limited time period
+- No demographic information
+- Not representative of all Fitbit users
+
+================================================
+PHASE 3 - PROCESS (CLEANING)
+================================================
+
+Tool Used: Microsoft Excel
+
+Cleaning Steps:
+
+1. Removed duplicate records
+2. Checked for blank values
+3. Standardized date formats
+4. Created Weekday column
+5. Created Activity Level column
+6. Created Sleep Hours column
+7. Created Sleep Category column
+
+Results:
+
+- Daily Activity Records: 940
+- Sleep Records: 411
+- No duplicate records remaining
+- No significant missing values
+
+================================================
+PHASE 4 - ANALYZE
+================================================
+
+Key Findings:
+
+FINDING 1 - Daily Activity
+
+- Average daily steps: 7,638
+- Users walk close to recommended 8,000 steps
+
+FINDING 2 - Sleep Pattern
+
+- Average sleep duration: 7 hours
+- Most users achieve recommended sleep levels
+
+FINDING 3 - Steps vs Calories
+
+- Positive relationship observed
+- More steps generally result in more calories burned
+
+FINDING 4 - Weekday Analysis
+
+- Saturday recorded highest average steps
+- Sunday recorded lowest average steps
+
+FINDING 5 - Activity Level
+
+- Active users burn highest calories
+- Sedentary users burn lowest calories
+
+================================================
+PHASE 5 - SHARE
+================================================
+
+Tool Used: Tableau Public
+
+Dashboard:
+Fitbit Fitness Activity Analysis Dashboard
+
+Visualizations Created:
+
+1. KPI Cards
+   - Avg Steps
+   - Avg Calories
+   - Avg Sleep Hours
+   - Total Users
+
+2. Steps vs Calories Scatter Plot
+
+3. Average Steps by Weekday
+
+4. Activity Level Distribution
+
+5. Average Calories Burned by Activity Level
+
+================================================
+PHASE 6 - ACT (RECOMMENDATIONS)
+================================================
+
+1. Increase Daily Activity
+
+   Encourage users to reach
+   8,000+ steps per day through
+   fitness challenges and reminders.
+
+2. Weekend Fitness Campaigns
+
+   Promote activity challenges on
+   Sundays since activity levels are lower.
+
+3. Personalized Goals
+
+   Provide customized step goals
+   based on user activity levels.
+
+4. Improve Sedentary User Engagement
+
+   Send inactivity reminders and
+   reward movement milestones.
+
+5. Sleep Improvement Programs
+
+   Encourage users to maintain
+   7-8 hours of sleep consistently.
+
+================================================
+CONCLUSION
+================================================
+
+The analysis shows that users who are more
+physically active burn significantly more calories.
+Most users average around 7 hours of sleep and
+7,638 daily steps. Fitbit can improve engagement
+through personalized goals, activity challenges,
+and wellness recommendations.
