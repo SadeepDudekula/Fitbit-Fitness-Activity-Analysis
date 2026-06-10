@@ -168,7 +168,7 @@ Fitbit-Fitness-Activity-Analysis
 └── README.md
 ```
 
-## Author
+## About me
 
 **Sadeep Dudekula**
 
